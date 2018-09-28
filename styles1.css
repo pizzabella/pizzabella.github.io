@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+/*this is right box */
+nav {
+	float: right;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+body {
+	max-width: 794px; 
+	margin-left: auto;
+	margin-right: auto;
+	font-family: arial;
+}
+/*this is  right side box*/
+nav ul li {
+	list-style-type: none;
+	padding-left: 20px;
+	text-align: right;
+	display: inline-block;
+}
+/*this is text inside the right box*/
+nav ul li a {
+	text-decoration:none;
+	color: #FB8635; font-size: 15px;
+}
+/*this is main box with background */
+
+
+.pink-box {
+	height: 438px; 
+	background-color: #EC4AD2;
+	background-image: url(images/collection.png);
+	background-size: cover;
+	margin: 1%;
+}
+
+
+h1 {
+	color: hotpink;
+	font-size: 30px; 
+	padding-top:120px; 
+	padding-left:90px;
+}
+
+.column img {
+	width: 100%;
+	height: auto;
+	display: block
+}
+
+.column {
+	width: 31.3%;
+	float: left;
+	margin: 1%;
+}
+
+
+/*for tablet*/
+@media (max-width:768px){
+	h1 {font-size: 25px;
+		text-align: center;
+		padding-left: 0px;
+		padding-bottom: 260px;
+		height: 60% ; width: auto;
+	}
+	.column {
+		width: 48%; }
+}
+
+/*for phone*/
+@media (max-width:400px){
+	h1 {font-size: 18px;
+    } 
+	.column {width:  98%;}
+	nav ul li {
+		display: block;
+	}
+}
+
+

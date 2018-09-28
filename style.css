@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body 
+{ font-family: "Trebuchet MS" , Arial, sans-serif; 
+	color:#000000;
+	background-color:#FFFFFF;
+	max-width: 964px; 
+	margin-left: auto;
+	margin-right: auto;
+	
+    background: url(https://thumbs.gfycat.com/SpotlessWhirlwindAbyssiniancat-size_restricted.gif);
+    background-repeat: repeat-x;
+}
+
+/*code to make all centered 
+max-width: 794px; 
+	margin-left: auto;
+	margin-right: auto;
+*/
+
+
+
+
+
+#container {width: 968px;
+}
+#main_image {width: 968px;
+            height: 346px;
+	        background-image: url(images/main.jpg);
+	        position: relative;
+	margin: 4%;
+} 
+#left_column {
+	        width: 316px;
+		    margin-top: 10px;
+            margin-right:10px;
+	        float:left;}
+           
+#center_column {
+	      width: 316px;
+		  margin-top: 10px;
+          float:left;
+}
+#right_column {
+	      width: 316px;
+	      margin-top: 10px;
+	      margin-left: 10px;
+	      float:left;
+}
+#text h2 {
+	color: #00b4e1;
+	margin-top: 0px;
+   margin-bottom:10px;
+}
+#text h3 {
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom:0px;
+}
+#text p {
+	font-size: 14px;
+	margin-top: 0px;
+	margin-bottom: 0px; 
+}
+
+#text{
+	width:300px;
+    background-color:#FFFFFF;
+    padding: 12px;
+    position: absolute; 
+    right:32px;
+	bottom:90px;
+}

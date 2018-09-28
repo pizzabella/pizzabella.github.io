@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body 
+{ font-family: "Trebuchet MS" , Arial, sans-serif; 
+	color:#FFFFFF;
+	background-color:#FFFFFF;
+	max-width: 1064px; 
+	margin-left: auto;
+	margin-right: auto;
+	
+	background: url(images/imac.jpg); }
+ 
+
+h1 {
+    color: lightcyan;
+}
